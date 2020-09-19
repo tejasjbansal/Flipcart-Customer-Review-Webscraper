@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block content %}
+    {% if error %}
+<div class="p-3 bg-success text-white my-0">{{error}}</div>
+{% endif %}
+{% endblock content %}
+
+{% block body %}
+<div class="container-fluid px-0">
+<img src="https://source.unsplash.com/1200x400/?contact" class="d-block mx-0 w-100" alt="...">
+</div>
+<div class="container my-4 py-4">
+<h1 class="text-center">Contact Us</h1>
+<form method='POST' action="/contact">
+<div class="form-group">
+    <label for="Name">Name</label>
+    <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+  </div>
+  <div class="form-group">
+    <label for="Phone">Phone Number</label>
+    <input type="phone" class="form-control" id="phone" name="phone" placeholder="7500529493">
+  </div>
+  
+  
+  <div class="form-group">
+    <label for="desc">Tell me your question?</label>
+    <textarea class="form-control" id="desc" name="desc" rows="3"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary" >Submit</button>
+</form>
+</div>
+{% endblock body %}
