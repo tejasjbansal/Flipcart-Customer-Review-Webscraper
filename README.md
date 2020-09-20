@@ -13,5 +13,6 @@ I used Flask web framework in built in Python to put in on web.
 4. python app.py
 
 
-![Screenshot (57)](https://user-images.githubusercontent.com/56173595/93707879-bbcd3f00-fb4f-11ea-9939-731ea6c57111.png)
+![Screenshot (58)](https://user-images.githubusercontent.com/56173595/93707932-1f576c80-fb50-11ea-9d64-76a5e767f244.png)
+
 ![Screenshot (56)](https://user-images.githubusercontent.com/56173595/93707881-be2f9900-fb4f-11ea-9a3d-ba02acf4815a.png)
